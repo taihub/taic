@@ -1,10 +1,11 @@
 export { default as Foo } from './Foo';
-export { TaiButton } from './TaiButton';
-export { TaiTable } from './TaiTable';
-export { TaiPagination } from './TaiPagination';
+export { TaModal } from './TaModal';
 export { TaiBreadcrumb } from './TaiBreadcrumb';
-export { TaiCard } from './TaiCard'
-export { TaModal } from './TaModal'
-export {TaiRangePicker} from './TaiRangePicker'
-export { TaiMsgCard } from './TaiMsgCard'
+export { TaiButton } from './TaiButton';
 export type { TaiButtonProps } from './TaiButton';
+export { TaiCard } from './TaiCard';
+export { TaiMsgCard } from './TaiMsgCard';
+export { TaiPagination } from './TaiPagination';
+export { TaiRangePicker } from './TaiRangePicker';
+export { TaiTable } from './TaiTable';
+export { TaiTextArea } from './TaiTextArea';

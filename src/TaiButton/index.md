@@ -4,5 +4,5 @@
 
 ```jsx
 import { TaiButton } from 'taic';
-export default () => <TaiButton>提交123</TaiButton>;
+export default () => <TaiButton>提交</TaiButton>;
 ```
