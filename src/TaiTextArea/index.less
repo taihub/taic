@@ -1,0 +1,107 @@
+.chatTriggerWrap {
+  width: 100%;
+  z-index: 8;
+  position: relative;
+
+  .content {
+    margin-top: 8px;
+    border-radius: 6px;
+    display: flex;
+    padding: 10px;
+    align-items: center;
+    gap: 18px;
+    border: 1px solid #d9d9d9;
+    background-color: #fff;
+    position: relative;
+  }
+
+  .inputWrap {
+    flex: 1;
+    display: flex;
+    background-color: #fff;
+    gap: 12px;
+    border-radius: 4px;
+    position: relative;
+
+    .record {
+      position: relative;
+      width: 100px;
+
+      .recordBox {
+        justify-content: flex-end;
+        align-items: center;
+        height: 100%;
+        flex-wrap: nowrap;
+      }
+
+      .mark {
+        position: absolute;
+        right: 0;
+        bottom: 0;
+        color: #bfbfbf;
+      }
+    }
+  }
+
+  .upload {
+    width: 32px;
+    height: 32px;
+    border-radius: 4px;
+    border: 1px solid #595959;
+    text-align: center;
+    line-height: 32px;
+    cursor: pointer;
+  }
+
+  .ant-input {
+    max-height: 400px;
+    font-size: 12px;
+    min-height: 40px;
+    border: none;
+    resize: none;
+    padding: 10px 0;
+    display: flex;
+    align-items: center;
+
+    &:focus-within {
+      box-shadow: none;
+    }
+
+    &::placeholder {
+      color: #737373;
+      top: 50%;
+      transform: translateY(-50%);
+      position: absolute;
+    }
+
+    &::-webkit-scrollbar {
+      width: 0;
+    }
+  }
+
+  .actionWrap {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 12px;
+    font-size: 12px;
+    width: 32px;
+    height: 32px;
+
+    .send {
+      width: 32px;
+      height: 32px;
+      line-height: 40px;
+      border-radius: 4px;
+      border: 0.5px solid #b1c4ed;
+      background: #225ffe;
+      backdrop-filter: blur(2px);
+      position: absolute;
+      right: 10px;
+      top: 50%;
+      transform: translateY(-50%);
+      text-align: center;
+      cursor: pointer;
+    }
+  }
+}
